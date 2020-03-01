@@ -11,4 +11,11 @@ script:
 - ls
 - tar -xJf omni_twrp-5.1.1_cleaned.tar.xz
 - ls 
+- rm omni_twrp-5.1.1_cleaned.tar.xz
+- rm omni_twrp-5.1.1_cleaned.tar.xz.bz2.001 
+- rm omni_twrp-5.1.1_cleaned.tar.xz.bz2.002
+- rm omni_twrp-5.1.1_cleaned.tar.xz.bz2.003
+- rm omni_twrp-5.1.1_cleaned.tar.xz.bz2.004
+- rm omni_twrp-5.1.1_cleaned.tar.xz.bz2.005
+- ls
 
