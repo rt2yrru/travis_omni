@@ -9,4 +9,6 @@ script:
 - mkdir omni_twrp
 - 7z x omni_twrp-5.1.1_cleaned.tar.xz.bz2.001 
 - ls
+- tar -xJf twrp.tar.xz --directory $HOME/omni_twrp/
+- ls
 
