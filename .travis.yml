@@ -1,0 +1,11 @@
+sudo: required
+services:
+ - docker
+
+script:
+- git clone https://github.com/android-build-tools/omni_twrp_5_1
+- cat omni_twrp-5.1.1_cleaned.tar.xz.bz2.00*
+- ls
+- tar -xJf omni_twrp-5.1.1_cleaned.tar.xz
+exit
+   EOF
