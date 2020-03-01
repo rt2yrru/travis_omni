@@ -5,12 +5,10 @@ services:
 script:
 - sudo apt install p7zip-full
 - ls
-- cd $HOME && mkdir twrp
 - wget -i twrp_list.txt
 - ls
 - 7z x omni_twrp-5.1.1_cleaned.tar.xz.bz2.001 
 - ls
-- tar -xJf omni_twrp-5.1.1_cleaned.tar.xz --directory $HOME/twrp/ 
-- cd twrp
+- tar -xJf omni_twrp-5.1.1_cleaned.tar.xz
 - ls 
 
