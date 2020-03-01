@@ -10,7 +10,7 @@ script:
 - 7z x omni_twrp-5.1.1_cleaned.tar.xz.bz2.001 
 - mkdir twrp
 - ls
-- tar -xJf omni_twrp-5.1.1_cleaned.tar.xz --directory /twrp
+- tar -xJf omni_twrp-5.1.1_cleaned.tar.xz -o/twrp
 - ls 
 - rm omni_twrp-5.1.1_cleaned.tar.xz
 - rm omni_twrp-5.1.1_cleaned.tar.xz.bz2.001 
