@@ -7,3 +7,7 @@ script:
 - ls
 - cd omni_twrp_5_1
 - ls
+- cat omni_twrp-5.1.1_cleaned.tar.xz.bz2.001  omni_twrp-5.1.1_cleaned.tar.xz.bz2.002 omni_twrp-5.1.1_cleaned.tar.xz.bz2.003 omni_twrp-5.1.1_cleaned.tar.xz.bz2.004 omni_twrp-5.1.1_cleaned.tar.xz.bz2.005
+- ls
+- tar -xJf omni_twrp-5.1.1_cleaned.tar.xz
+
