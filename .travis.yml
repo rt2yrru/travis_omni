@@ -3,4 +3,8 @@ services:
  - docker
 
 script:
+- sudo apt install p7zip-full
 - cd $HOME && mkdir twrp
+- wget -i twrp_list.txt
+- ls
+
