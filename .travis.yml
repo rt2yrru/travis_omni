@@ -3,4 +3,4 @@ services:
  - docker
 
 script:
-- mkdir /HOME/twrp
+- cd $HOME && mkdir twrp
