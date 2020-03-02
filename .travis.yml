@@ -5,6 +5,6 @@ services:
 script:
 - sudo apt install p7zip-full
 - cd $HOME && mkdir twrp
-- wget -i twrp_list.txt
+- wget -i https://android-build-tools.github.io/omni_twrp_5_1/omni_twrp_5_1_list.txt
 - ls
 
