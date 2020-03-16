@@ -8,4 +8,6 @@ script:
 - cd twrp
 - wget -i https://android-build-tools.github.io/omni_twrp_5_1/omni_twrp_5_1_list.txt
 - ls
+- 7z x omni_twrp-5.1.1_cleaned.tar.xz.bz2.001
+- ls
 
