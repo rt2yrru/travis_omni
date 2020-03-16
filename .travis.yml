@@ -3,10 +3,10 @@ services:
  - docker
 
 script:
-# - sudo apt install p7zip-full
+# 
 # - cd $HOME && mkdir twrp
 # - cd twrp
-# - wget -i https://android-build-tools.github.io/omni_twrp_5_1/omni_twrp_5_1_list.txt
+# - 
 # - ls
 # - 7z x omni_twrp-5.1.1_cleaned.tar.xz.bz2.001
 # - mkdir twrp
@@ -16,4 +16,10 @@ script:
 - echo "$PWD"
 - mkdir twrp
 - ls
+- sudo apt install p7zip-full
+- wget -i https://android-build-tools.github.io/omni_twrp_5_1/omni_twrp_5_1_list.txt
+- ls
+- 7z x omni_twrp-5.1.1_cleaned.tar.xz.bz2.001
+-  tar -xJf omni_twrp-5.1.1_cleaned.tar.xz -o twrp
+
 
