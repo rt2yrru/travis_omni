@@ -14,4 +14,6 @@ script:
 # - tar -xJf omni_twrp-5.1.1_cleaned.tar.xz -o  $PWD/twrp
 # - ls
 - echo "$PWD"
+- mkdir twrp
+- ls
 
